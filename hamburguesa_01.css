@@ -6,12 +6,20 @@ header {
   background-color: #333;
 }
 
+.imagen {
+  width: 150px;
+  height: auto;
+  background-color: white;
+  border-radius: 5%;
+}
+
 .menu {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  right: 0;
+  top: 95px;
+  right: 10px;
   position: absolute;
   background-color: #333;
 }
@@ -23,7 +31,7 @@ header {
 .menu a {
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 30px;
 }
 
 .menu-icon {
@@ -31,6 +39,7 @@ header {
   cursor: pointer;
   position: absolute;
   right: 20px;
+  top: 37px;
 }
 
 .menu-icon__line {
@@ -43,10 +52,10 @@ header {
 
 @media only screen and (max-width: 767px) {
   .menu {
-  display: none;
+    display: none;
   }
-  
+
   .menu-icon {
-  display: block;
+    display: block;
   }
-  }
+}
